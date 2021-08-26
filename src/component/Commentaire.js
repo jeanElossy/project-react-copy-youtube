@@ -41,16 +41,16 @@ const Commentaire = () => {
   ];
 
   return (
-    <div className="row mt-3">
+    <div className="row mt-3 w-50">
       {comment.map((elt) => (
         <div key={elt.key}>
           <h1 className="h6">{elt.name}</h1>
           <p>{elt.commentaire}</p>
-          <hr />
           <div>
             <span>{elt.lieu} </span>
             <span>{elt.heure}</span>
           </div>
+          <hr />
         </div>
       ))}
     </div>

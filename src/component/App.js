@@ -13,12 +13,10 @@ class App extends React.Component{
         <div>
           <NavBar />
           <div className="row">
-            <div className="col">
-              <VideoMain />
-              <Commentaire />
-            </div>
+            <VideoMain />
             <SuggestionVideo />
           </div>
+          <Commentaire />
         </div>
       );
     }
