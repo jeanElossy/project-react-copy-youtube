@@ -1,0 +1,65 @@
+
+header, .youtube, .myform, form, .micro, .icons__right span {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youtube{
+  justify-content: center;
+  gap: 20px;
+}
+
+.triple{
+  font-size: 1.3rem;
+}
+
+.youtube__icon{
+  font-size: 2rem;
+  color: red;
+}
+.myform{
+  align-items: center;
+  gap: 20px;
+}
+
+header{
+  padding: 1.5rem;
+}
+
+form{
+  width: 700px;
+}
+
+input{
+  width: 100%;
+}
+
+.micro{
+  background: rgba(65, 63, 63, 0.274);
+}
+
+.micro, .icons__right span{
+  justify-content: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.icons__right{
+  display: flex;
+  gap: 30px;
+}
+
+.icons__right span{
+  border: 1px solid rgba(56, 55, 55, 0.596);
+}
+
+.bell, .square, .video{
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.micro, .icons__right span, .bell, .square, .video, .triple, .youtube__icon{
+  cursor: pointer;
+}
